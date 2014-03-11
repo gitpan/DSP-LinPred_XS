@@ -28,13 +28,14 @@ no_index:
 provides:
   DSP::LinPred_XS:
     file: lib/DSP/LinPred_XS.pm
-    version: 0.01
+    version: 0.02
 requires:
+  Mouse: v2.1.0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/adokoy001/DSP-LinPred_XS/issues
   homepage: https://github.com/adokoy001/DSP-LinPred_XS
   repository: git://github.com/adokoy001/DSP-LinPred_XS.git
-version: 0.01
+version: 0.02
 x_contributors:
   - 'Toshiaki Yokoda <yokoda@ub12.04svr>'
